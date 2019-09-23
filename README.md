@@ -16,16 +16,16 @@ Financiación: CP17/00206-EU/FEDER
 
 <br>
 
-<img src="img/logo_RCG.png" alt="CIBER" style="width: 250px; text-align:center"/>
+<img src="img/logo_RCG.png" alt="RCG" style="width: 250px; text-align:center"/>
 
 <br>
 
-<img src="img/logo_ibs.jpg" alt="CIBER" style="width: 250px; text-align:center"/>
+<img src="img/logo_ibs.jpg" alt="IBS" style="width: 250px; text-align:center"/>
 
 <br>
 
-<img src="img/logo_easp.png" alt="CIBER" style="width: 250px; text-align:center"/>
+<img src="img/logo_easp.png" alt="EASP" style="width: 250px; text-align:center"/>
 
 <br>
 
-<img src="img/logo_feder.png" alt="CIBER" style="width: 250px; text-align:center"/>
+<img src="img/logo_feder.png" alt="FEDER" style="width: 250px; text-align:center"/>
