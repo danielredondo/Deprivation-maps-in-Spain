@@ -2,7 +2,7 @@
 
 ![](img/mapa_edi.png)
 
-### Script en R para generar un mapa interactivo de privación en España, a nivel de sección censal.
+### Script reproducible en R para generar un mapa interactivo de privación en España, a nivel de sección censal.
 
 Las **fuentes de información** son:
 
