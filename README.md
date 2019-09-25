@@ -10,7 +10,7 @@ Las **fuentes de información** son:
 
 - SEE: Grupo de Trabajo sobre determinantes sociales de la salud https://www.seepidemiologia.es/gruposdetrabajo.php?contenido=gruposdetrabajosub6
 
-Financiación: CP17/00206-EU/FEDER
+Financiación: Instituto de Salud Carlos III (ISCIII), PI18/01593 & CP17/00206-EU/FEDER
 
 <img src="img/logo_ciber.png" alt="CIBER" style="width: 250px; text-align:center"/>
 
