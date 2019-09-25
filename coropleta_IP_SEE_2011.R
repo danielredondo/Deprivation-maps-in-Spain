@@ -2,7 +2,6 @@
 library(rgdal)
 library(dplyr)
 library(leaflet)
-library(stringr)
 library(readxl)
 library(htmlwidgets)
 
@@ -29,22 +28,21 @@ paleta <- colorBin("Blues", domain = sc@data$IP2011, bins = bins)
 
 # Mapa interactivo
 leaflet(sc) %>%
-   addTiles() %>%
    setView(lng = -3.692125,
            lat =  40.41896944, 
            zoom = 6) %>%
    addPolygons(fillColor = ~paleta(IP2011),
-               weight = 1,
-               opacity = 0,
-               color = "white",
-               dashArray = "3",
+               color = "#444444",
+               weight = 0.001,
+               stroke = FALSE,
+               smoothFactor = 0,
+               opacity = 1.0,
                fillOpacity = 0.7,
-               popup = paste("SECCION CENSAL: ", sc$CUSEC, "<br>NMUN: ", sc$NMUN, "<br>IP: ", round(sc$IP2011, 1)),
-               highlightOptions = highlightOptions(color = "#666", weight = 4)) %>%
-   addLegend("bottomright", 
+               popup = paste("Sección censal: ", sc$CUSEC, "<br>Municipio: ", sc$NMUN, "<br>Índice de privación: ", round(sc$IP2011, 1))) %>%
+   addLegend("bottomleft", 
              colors = paleta(sc@data$IP2011) %>% table %>% row.names %>% rev,
-             labels= c("Q1 (Less deprived)", "Q2", "Q3", "Q4", "Q5 (Most deprived)"),
-             title= "Deprivation index (SEE, 2011)",
+             labels= c("Q1 (Menos privación)", "Q2", "Q3", "Q4", "Q5 (Más privación)"),
+             title= "Índice de privación (SEE, 2011)",
              opacity = 0.7) -> mapa
 mapa
 
